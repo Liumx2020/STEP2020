@@ -28,7 +28,7 @@ from operator import mul
 C = [[sum(map(mul, row, col)) for col in zip(*A)] for row in B]
 print (C)
 
-######################################################
+#######################################################
 
 end = time.time()
 print("time: %.6f sec" % (end - begin))
