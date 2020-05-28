@@ -1,4 +1,4 @@
-%%writefile 2.py
+
 import numpy, sys, time
 
 if (len(sys.argv) != 2):
